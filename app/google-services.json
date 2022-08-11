@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994690995885",
+    "project_id": "frame-toolkit",
+    "storage_bucket": "frame-toolkit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994690995885:android:cf001e28b3cf42f5189824",
+        "android_client_info": {
+          "package_name": "com.frame.kotlintoolkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994690995885-raotd4rq56cd3v76cl9e6jj7cebtpsnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapUW3c9vlbPcHZC7wAjb04PsLgStF73A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994690995885-raotd4rq56cd3v76cl9e6jj7cebtpsnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
