@@ -7,4 +7,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="text_selected">#888</color>
+
+    //Indicator SeekBar
+    <color name="color_gray">#C6B4B4</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_green">#00FF00</color>
+    <color name="color_blue">#007dff</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_pink">#FF00FF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="custom_data_color_pink">#80FF0079</color>
+    <color name="custom_data_color_pink_fade">#00FF0079</color>
+    <color name="custom_data_color_line_pink">#FF0079</color>
+
+    <color name="custom_data_color_blue">#8000D7C2</color>
+    <color name="custom_data_color_blue_fade">#0000D7C2</color>
+    <color name="custom_data_color_line_blue">#2FDFDF</color>
 </resources>

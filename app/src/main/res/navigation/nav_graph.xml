@@ -3,26 +3,71 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/HomeFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.frame.kotlintoolkit.FirstFragment"
+        android:id="@+id/HomeFragment"
+        android:name="com.frame.kotlintoolkit.presentation.home.HomeFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_HomeFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment_to_ProductTourFragment"
+            app:destination="@id/ProductTourFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment_to_IsbFragment"
+            app:destination="@id/IsbFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment_to_PlaygroundFragment"
+            app:destination="@id/PlaygroundFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.frame.kotlintoolkit.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:id="@+id/LoginFragment"
+        android:name="com.frame.kotlintoolkit.presentation.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProductTourFragment"
+        android:name="com.frame.kotlintoolkit.presentation.producttour.ProductTourFragment"
+        android:label="Product Tour"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_ProductTourFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/IsbFragment"
+        android:name="com.frame.kotlintoolkit.presentation.indicatorseekbar.IsbFragment"
+        android:label="Indicator SeekBar"
+        tools:layout="@layout/fragment_isb">
+
+        <action
+            android:id="@+id/action_IsbFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/PlaygroundFragment"
+        android:name="com.frame.kotlintoolkit.presentation.playground.PlaygroundFragment"
+        android:label="Playground"
+        tools:layout="@layout/fragment_playground">
+
+        <action
+            android:id="@+id/action_PlaygroundFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
     </fragment>
 </navigation>

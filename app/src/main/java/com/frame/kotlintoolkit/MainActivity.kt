@@ -1,19 +1,16 @@
 package com.frame.kotlintoolkit
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
+import com.frame.kotlintoolkit.core.platform.BaseActivity
 import com.frame.kotlintoolkit.databinding.ActivityMainBinding
-import com.frame.kotlintoolkit.presentation.common.base.BaseActivity
-import com.google.android.gms.tasks.OnCompleteListener
-import com.google.firebase.messaging.FirebaseMessaging
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class MainActivity : BaseActivity() {
     private val TAG = "MainActivity"
     private lateinit var appBarConfiguration: AppBarConfiguration
